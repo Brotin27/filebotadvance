@@ -1,19 +1,60 @@
 # Advance File Bot
 
+# Animated README
 
-╔══════════════════════╗
-║ Welcome to Advance ║
-║ File Bot Project! ║
-╚══════════════════════╝
+Here is an animated README file using ASCII art.
 
-<!-- Advance File Bot -->
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=&message=Loading...&color=blue&style=for-the-badge">
-</p>
+```js
+const frames = [
+  `
+  +---------------------------------------+
+  |       **  Animated README  **        |
+  +---------------------------------------+
+  
+  This README file has some simple animations using ASCII art!
+  
+  `,
 
-## Features
+  `
+  +---------------------------------------+
+  |      ***  Animated README  ***       |
+  +---------------------------------------+
+  
+  This README file has some simple animations using ASCII art!
+  
+    \__,__/
+    
+     
+  `,
 
-- 🤖 Smart file organization
-- 📁 File indexing and search
-- 🔄 Automated file tasks
+  `
+  +---------------------------------------+ 
+  |       **  Animated README  **        |
+  +---------------------------------------+
+  
+  This README file has some simple animations using ASCII art!
+  
+     _  
+    / _) 
+    
+  ` 
+]
+
+let counter = 0;
+
+setInterval(() => {
+  
+  // Clear the console
+  console.clear();
+
+  // Print the current frame
+  console.log(frames[counter]);
+
+  // Increment or reset the counter
+  counter++;
+  if (counter >= frames.length) {
+    counter = 0; 
+  }
+
+}, 500);
 
