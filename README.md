@@ -1,30 +1,19 @@
 # Advance File Bot
 
-Description of your awesome project goes here.
 
-![Project Logo](url/to/your/logo.png)
+╔══════════════════════╗
+║ Welcome to Advance ║
+║ File Bot Project! ║
+╚══════════════════════╝
 
-## Table of Contents
-
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+<!-- Advance File Bot -->
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=&message=Loading...&color=blue&style=for-the-badge">
+</p>
 
 ## Features
 
-- ✨ Amazing feature 1
-- 🚀 Super cool feature 2
-- 🌈 Awesome feature 3
+- 🤖 Smart file organization
+- 📁 File indexing and search
+- 🔄 Automated file tasks
 
-## Installation
-
-1. Clone the repository: `git clone https://github.com/your-username/your-repo.git`
-2. Navigate to the project directory: `cd your-repo`
-3. Install dependencies: `npm install`
-
-## Usage
-
-```bash
-npm start
